@@ -1,0 +1,95 @@
+/* Ma page de css, pour rendre jolie mon code */
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+/* ma nav bar */
+#textnav{
+    color: #d6d8d9;
+}
+
+/* liens de ma nav bar au passage de ma souris */
+#textnav:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: fuchsia;
+}
+
+/* switch de couleur test */
+#test1{
+    color: greenyellow;
+}
+
+#test2{
+    color: plum;
+}
+
+#test3{
+    color: #005cbf;
+}
+
+#test4{
+    color: #b21f2d;
+}
+
+#test5{
+    color: chocolate;
+}
+
+/* logo de ma nav bat */
+#logosite{
+    width: 60px;
+    height: 40px;
+}
+
+/* logo du site grande taille */
+#logositeMaxSize{
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    width: 800px;
+    height: auto;
+}
+
+#mabox{
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    box-shadow: 6px 4px 2px black;
+}
+
+#mabox:hover{
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    box-shadow: 12px 8px 2px black;
+}
+
+/* Mon formulaire testing */
+#monForm{
+    position: relative;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 500px;
+    height: 400px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: fuchsia;
+    box-shadow: 3px 2px 2px black;
+}
+
+/*Boutton du formulaire testing */
+#testingButton{
+    width: 96%;
+    position: absolute;
+    bottom: 10px;
+}
